@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+#menu{
+	width: 100vw;
+	min-height: 10vh;
+	background: linear-gradient(#F24B88,#63AEBF,#F2C230,#F29544,#D93D3D);
+}
+body{
+	background-color: #D0D9F2;
+	background-image: url(../img/gato.gif);
+}
+ul.nav{
+	list-style-type: none;
+}
+ul.nav li{
+	float: left;
+	border-right: 2px solid white;
+	width: 20vw;
+	margin-left: 4%;
+	margin-top: 1%;
+}
+ul.nav li a{
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-family: 'Fira Sans', sans-serif;
+	color: darkblue;
+	margin-left: 5%;
+}
+#principal{
+	width: 100vw;
+	height: 90vh;
+}
+#principal iframe{
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
+span{
+	color: darkblue;
+}
+h1{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 2rem;
+	color: darkblue;
+}
+hr{
+	background-color: darkblue;
+	height: 3vh;
+}
+p{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+h2{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+#push{
+	width: 60vw;
+	margin-left: 20vw;
+	min-height: 15vh;
+	border: 1px solid black;
+	border-radius: 22px;
+}
+#push h2{
+	background-color: darkblue;
+	color: white;
+	font-size: 1.2rem;
+	text-align: center;
+	border-top-right-radius: 22px;
+	border-top-left-radius: 22px;
+}
+#push p{
+	color: darkblue;
+	text-align: center;
+}
+table{
+	margin-top: 2%;
+	max-width: 90vw;
+	margin-left: 5vw;
+	height: auto;
+}
+table th{
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+table td{
+	border: 1px solid black;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+table td img{
+	max-width: 20vw;
+	max-height: 15vh;
+	border: 2px dotted darkblue;
+}
+#classifique{
+	float: right;
+}
